@@ -19,6 +19,9 @@ export const Transaction = ZkProgram({
     baseCase: {
       privateInputs: [],
       method(publicInputs: TransactionInput): ApplicationState {
+        // this should be a smart contract method that
+        // fetches root of the account state tree and then 
+        // checks if that matches the public input
         return publicInputs.newApplicationState;
       }
     },
