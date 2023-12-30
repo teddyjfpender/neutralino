@@ -6,6 +6,7 @@
   ],
   "devDependencies": {
     "@neutralino/node": "workspace:*",
+    "@neutralino/domain-model": "workspace:*",
     "bun-types": "latest"
   },
   "peerDependencies": {
