@@ -1,0 +1,16 @@
+{
+    "name": "@neutralino/node",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "bun run --watch src/index.ts"
+    },
+    "dependencies": {
+      "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+      "bun-types": "latest"
+    },
+    "module": "src/index.js"
+  }

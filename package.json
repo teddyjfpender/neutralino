@@ -1,0 +1,21 @@
+{
+  "name": "neutralino",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@neutralino/node": "workspace:*",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/supertest": "^6.0.2",
+    "core-js": "^3.34.0",
+    "elysia": "^0.8.6",
+    "o1js": "^0.14.0",
+    "reflect-metadata": "^0.1.14"
+  }
+}
